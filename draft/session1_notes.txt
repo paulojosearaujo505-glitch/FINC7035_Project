@@ -1,0 +1,10 @@
+Institution Chosen: Asset Management Firm
+
+Primary Risk Factor: S&P 500 Equity Market
+
+Loss Direction/Formula: primary_loss = -SP500_logret
+(A negative equity return creates a positive loss. A 1% drop in the S&P 500 results in a +0.01 loss in decimal terms, or +1% loss in percentage terms).
+
+Units: Daily log return (decimal), where a larger positive value represents a worse outcome.
+
+Why this matters: Asset management firms manage diversified portfolios for clients, focusing on total return and volatility management. Equity market risk is the primary driver of portfolio drawdowns. When the S&P 500 drops significantly, the firm faces higher portfolio volatility, potential capital erosion for clients, and a higher risk of large redemptions. Therefore, modeling the left-tail risk (losses) of the equity market is crucial for managing total portfolio risk.
