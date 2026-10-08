@@ -1,0 +1,13 @@
+Session 2: EWMA Volatility Notes (S&P 500, λ = 0.94)
+
+Pattern 1: The March 2020 Spike (Magnitude)
+Observation: EWMA volatility spiked from approximately 0.005 (0.5% daily) in February 2020 to over 0.05 (5% daily) in March 2020—a 10x increase in just a few weeks.
+Interpretation for Asset Management Firm: A spike of this magnitude represents immediate, severe drawdowns across client portfolios. The sheer speed means the firm cannot adjust its risk exposure quickly enough to protect capital. It forces the firm to either sell assets into a falling market to meet client redemptions or breach its internal risk limits, both of which are highly detrimental to client returns and trust.
+
+Pattern 2: The 2022–2023 Plateau (Duration)
+Observation: Unlike the sharp 2020 spike, volatility remained persistently elevated throughout 2022 and 2023 (hovering around 0.015 to 0.02 daily for an extended period).
+Interpretation for Asset Management Firm: The duration of elevated volatility is arguably more dangerous than a short spike. A prolonged period of high volatility persistently drags down risk-adjusted returns (Sharpe ratios), makes strategic rebalancing expensive, and increases tracking error against benchmarks. This sustained underperformance can lead to client attrition and reputational damage over time.
+
+Pattern 3: The 2025 Spike
+Observation: Another sharp, sudden spike occurred in 2025, reaching around 0.03, despite the preceding calm period.
+Interpretation for Asset Management Firm: This serves as a warning against complacency. Even after periods of low volatility, sharp shocks can occur. The firm must maintain robust risk models and avoid taking on excessive leverage during calm periods, as volatility regimes can shift rapidly.
