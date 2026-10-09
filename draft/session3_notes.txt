@@ -1,0 +1,14 @@
+Session 3: 252-Day Stock-Bond Correlation Notes
+(S&P 500 returns vs. Negative 10Y Yield Changes)
+
+Regime Change 1: Pre-2021 (Negative Correlation)
+Observation: From 2008 to 2020, the correlation is predominantly negative, frequently dropping between -0.4 and -0.6. It only briefly touches positive territory around 2008 and 2014.
+Interpretation for Asset Management Firm: This long stretch of negative correlation validates the traditional 60/40 portfolio. When equities sold off, Treasury prices rose (yields fell), providing a natural hedge. For an asset manager, this meant that adding Treasuries to a portfolio reliably reduced overall volatility and protected capital during equity drawdowns.
+
+Regime Change 2: 2021–2023 (Positive Correlation Spike)
+Observation: Starting in 2021, the correlation sharply reverses and shoots into positive territory, peaking above +0.3 in 2022-2023. This is a massive regime shift from the historical norm.
+Interpretation for Asset Management Firm: This is a critical risk event for the firm. A positive correlation means stocks and bonds are falling together. The traditional diversification benefit disappears. This was driven by the inflation shock and aggressive Federal Reserve rate hikes. For an asset manager, this meant that the "safe" part of the portfolio (Treasuries) was amplifying losses instead of cushioning them, leading to severe drawdowns in balanced portfolios.
+
+Regime Change 3: 2024–2025 (Normalization)
+Observation: The correlation has recently rolled over and is heading back down toward zero (currently around -0.1 to -0.2).
+Interpretation for Asset Management Firm: While diversification is starting to return, the 2021-2023 event serves as a warning. The firm cannot blindly assume bonds will always hedge equities. This necessitates a more dynamic asset allocation strategy that can adapt when correlation regimes shift.
