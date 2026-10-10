@@ -1,0 +1,10 @@
+Session 4: VaR/ES Calculation Summary
+
+Method: 1-Day 99% Historical Simulation using a 500-day rolling window.
+Forecast Period: 2018-2025
+Total Forecast Days: 2010
+Expected Exceptions (1%): 20.1
+Actual VaR Exceptions: 29
+
+Initial Interpretation:
+The actual number of exceptions (29) exceeds the expected number (20.1). This indicates that the historical simulation model, based on a 500-day rolling window, underestimated tail risk during this period. The excess exceptions are likely clustered during specific stress episodes (e.g., March 2020, 2022) when market volatility spiked faster than the historical window could adapt. We will visualize the exact timing of these exceptions in Session 5.
