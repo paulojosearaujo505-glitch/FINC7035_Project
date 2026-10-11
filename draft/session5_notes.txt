@@ -1,0 +1,9 @@
+Session 5: VaR/ES Back-Test Interpretation
+
+Total Exceptions: 29 (vs. ~20.1 expected). The model breached the 99% VaR threshold approximately 44% more often than it should have.
+
+Clustering of Exceptions: The red dots are not evenly distributed. They are heavily clustered in three distinct periods: March 2020 (COVID crash), 2022 (inflation/rate shock), and a smaller cluster in 2025. For an Asset Management Firm, this clustering is the most dangerous aspect of the model. It means the risk model fails exactly when the firm needs it most—during severe market drawdowns. When clients are panicking and redeeming their funds, the model is simultaneously underestimating the losses, forcing the firm to sell assets into a falling market.
+
+Model Lag: Look at the blue line (VaR). It stays relatively flat and low right before the big grey spikes, then jumps up afterward. This visually confirms that historical simulation is a reactive model, not a predictive one. It takes time for the 500-day rolling window to "learn" from the new high-volatility data. For an asset manager, relying solely on this model means being caught off guard at the beginning of every crisis.
+
+ES vs. VaR: As expected, ES (the red dashed line) is consistently above VaR (the blue line). The gap between them widens significantly during stress periods (like 2020 and 2022). For an asset manager, this means that when a tail event happens, the average loss in the worst 5% of scenarios is much worse than the VaR threshold itself. This highlights the severity of tail risk that standard VaR misses.
