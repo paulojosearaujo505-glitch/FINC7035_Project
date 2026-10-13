@@ -1,8 +1,23 @@
-# RISK ANALYSIS MEMO
+# Risk Assessment for Asset Management Firm: S&P 500 Equity Risk (2018–2025)
+
+**Paulo Jose Araujo**
+
+Department of Finance and Business Economics  
+Faculty of Business Administration  
+University of Macau
+
+**Course:** FINC7035: Financial Risk Management  
+**Instructor:** Jiahong Shi  
+**Program:** Master Program (2026 Autumn)  
+**Date:** October 13, 2026
+
+---
+
+**MEMORANDUM**
 
 **To:** Chief Risk Officer  
-**From:** [Your Name]  
-**Date:** [Today's Date]  
+**From:** Paulo Jose Araujo  
+**Date:** October 13, 2026  
 **Re:** Risk Assessment for Asset Management Firm: S&P 500 Equity Risk (2018–2025)
 
 ---
