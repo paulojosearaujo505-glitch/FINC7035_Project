@@ -1,15 +1,12 @@
-# Risk Assessment for Asset Management Firm: S&P 500 Equity Risk (2018–2025)
-
-**Paulo Jose Araujo**
-
-Department of Finance and Business Economics  
-Faculty of Business Administration  
 University of Macau
+Faculty of Business Administration
+Department of Finance and Business Economics  
+
 
 **Course:** FINC7035: Financial Risk Management  
 **Instructor:** Jiahong Shi  
 **Program:** Master Program (2026 Autumn)  
-**Date:** October 13, 2026
+**Date:** October 30, 2026
 
 ---
 
@@ -17,7 +14,7 @@ University of Macau
 
 **To:** Chief Risk Officer  
 **From:** Paulo Jose Araujo  
-**Date:** October 13, 2026  
+**Date:** October 30, 2026  
 **Re:** Risk Assessment for Asset Management Firm: S&P 500 Equity Risk (2018–2025)
 
 ---
