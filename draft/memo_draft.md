@@ -1,6 +1,10 @@
-University of Macau
-Faculty of Business Administration
+# Risk Assessment for Asset Management Firm: S&P 500 Equity Risk (2018–2025)
+
+**Paulo Jose Araujo**
+
 Department of Finance and Business Economics  
+Faculty of Business Administration  
+University of Macau 
 
 
 **Course:** FINC7035: Financial Risk Management  
