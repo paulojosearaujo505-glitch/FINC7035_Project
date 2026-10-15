@@ -17,15 +17,8 @@ df['delta_2Y_bp'] = df['US_Treasury_2Y_Yield'].diff() * 100
 df['delta_10Y_bp'] = df['US_Treasury_10Y_Yield'].diff() * 100
 df['delta_HY_bp'] = df['US_HighYield_Spread'].diff() * 100
 
-# 3. CHOOSE YOUR INSTITUTION (Uncomment exactly ONE line below)
-# Option A: Commercial Bank (spread widening is adverse)
-# df['primary_loss'] = df['delta_HY_bp']
-
-# Option B: Asset Management Firm (market drops are adverse)
+# Asset Management Firm (market drops are adverse)
 df['primary_loss'] = -df['SP500_logret']
-
-# Option C: Life Insurance Company (falling yields are adverse)
-# df['primary_loss'] = -df['delta_10Y_bp']
 
 # 4. Clean up NaNs created by shifting/differencing
 df = df.dropna().reset_index(drop=True)
