@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-# 1. Load the results from Session 4
+# 1. Load the results from 04_var_es.py
 print("Loading VaR/ES results...")
 df = pd.read_csv('output/var_es_results.csv')
 df['Date'] = pd.to_datetime(df['Date'])
