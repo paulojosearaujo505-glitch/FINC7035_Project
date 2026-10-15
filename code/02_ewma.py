@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-# 1. Load the clean data 
+# 1. Load the clean data from 01_data_prep.py
 print("Loading clean data...")
 df = pd.read_csv('output/clean_data.csv')
 df['Date'] = pd.to_datetime(df['Date'])
