@@ -33,11 +33,11 @@ Understanding this exposure is critical for the firm. Severe equity market downt
 
 
 ## 2. Volatility Risk (EWMA Analysis)
-*(Summarize Session 2 notes here. Insert figure placeholder).*
-- Look at the EWMA volatility plot. Point out the 2020 spike (magnitude) and the 2022-2023 plateau (duration).
-- Why does *duration* matter more for an asset manager than a short spike? (Client attrition, Sharpe ratio drag, expensive rebalancing).
-- Mention the 2025 spike as a warning against complacency.
-- ![Figure 1: EWMA Volatility of S&P 500 Daily Losses (2018-2025)](../figures/ewma_volatility.png)
+The EWMA volatility analysis (Figure 1) reveals two distinct volatility patterns that are materially relevant to our firm's equity exposure. First, the March 2020 shock demonstrates the danger of extreme magnitude. Within a matter of weeks, EWMA volatility spiked from a baseline of roughly 0.005 to over 0.05. For an asset management firm, a spike of this size represents immediate, severe drawdowns across client portfolios. The sheer speed of this volatility increase means the firm cannot adjust its risk exposure quickly enough, forcing portfolio managers to either sell assets into a falling market to meet client redemptions or risk breaching internal risk limits.
+
+Second, the 2022–2023 period illustrates the danger of duration. Unlike the sharp shock of 2020, volatility remained persistently elevated (hovering between 0.015 and 0.02) for well over a year. For an asset manager, a prolonged period of high volatility is arguably more damaging than a short spike. It persistently drags down risk-adjusted returns, makes strategic rebalancing expensive, and increases tracking error against benchmarks. This sustained underperformance can ultimately lead to client attrition and reputational damage. The brief 2025 spike serves as a final reminder that volatility regimes can shift rapidly, warning against complacency during periods of market calm.
+
+![Figure 1: EWMA Volatility of S&P 500 Daily Losses (2018-2025)](../figures/ewma_volatility.png)
 
 ## 3. Diversification Risk (Stock-Bond Correlation)
 *(Summarize Session 3 notes here. Insert figure placeholder).*
