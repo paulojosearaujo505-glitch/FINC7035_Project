@@ -40,10 +40,10 @@ Second, the 2022–2023 period illustrates the danger of duration. Unlike the sh
 ![Figure 1: EWMA Volatility of S&P 500 Daily Losses (2018-2025)](../figures/ewma_volatility.png)
 
 ## 3. Diversification Risk (Stock-Bond Correlation)
-*(Summarize Session 3 notes here. Insert figure placeholder).*
-- Explain the pre-2021 negative correlation and why it validated the 60/40 portfolio.
-- Explain the 2021-2023 positive correlation spike. What did this mean for the firm? (Stocks and bonds falling together, no safe haven, balanced portfolios suffered severe drawdowns).
-- Mention the recent normalization but emphasize the lesson: diversification is not guaranteed.
+The 252-day rolling correlation between the S&P 500 and negative change in the 10-Year Treasury yield (Figure 2) reveals a critical regime shift in how asset interact. From 2008 until 2020, the correlation was predominately negative, frequent hovering between -0.4 and -0.6. For an asset management firm, this validates the traditional 60/40 portfolio strategy: Treasured acted as a reliable haven. When equities sold off, Treasury prices rallied (yield fell), providing a natural hedge that cushioned portfolio drawdowns and dampened overall volatility 
+
+However, beginning in 2021, the correlation sharply reversed into positive territory, peaking above +0.3 in 2022 and 2023. This regime shift was driven by macroeconomic environment of surging inflation and aggressive Federal Reserve rate hikes. For an asset management firm, the implications were severe. A positive correlation meant that stocks and bonds were falling simultaneously. The traditional diversification benefits completely disappeared, and the “safe” fixed-income allocation began amplifying losses rather than cushioning them. While the correlation has recently begun to normalize back toward zero in 2024-2025, the 2022 event serves as a crucial warning: an asset management firm cannot blindly assume that government bonds will always hedge equity risk. Asset allocation must be dynamic and responsive to macroeconomic regimes. 
+
 - ![Figure 2: 252-Day Rolling Correlation: S&P 500 Returns vs. Negative 10Y Yield Changes](../figures/stock_bond_correlation.png)
 
 ## 4. Tail Risk and Model Performance (VaR, ES, and Back-Test)
