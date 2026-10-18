@@ -44,7 +44,7 @@ The 252-day rolling correlation between the S&P 500 and negative change in the 1
 
 However, beginning in 2021, the correlation sharply reversed into positive territory, peaking above +0.3 in 2022 and 2023. This regime shift was driven by macroeconomic environment of surging inflation and aggressive Federal Reserve rate hikes. For an asset management firm, the implications were severe. A positive correlation meant that stocks and bonds were falling simultaneously. The traditional diversification benefits completely disappeared, and the “safe” fixed-income allocation began amplifying losses rather than cushioning them. While the correlation has recently begun to normalize back toward zero in 2024-2025, the 2022 event serves as a crucial warning: an asset management firm cannot blindly assume that government bonds will always hedge equity risk. Asset allocation must be dynamic and responsive to macroeconomic regimes. 
 
-- ![Figure 2: 252-Day Rolling Correlation: S&P 500 Returns vs. Negative 10Y Yield Changes](../figures/stock_bond_correlation.png)
+![Figure 2: 252-Day Rolling Correlation: S&P 500 Returns vs. Negative 10Y Yield Changes](../figures/stock_bond_correlation.png)
 
 ## 4. Tail Risk and Model Performance (VaR, ES, and Back-Test)
 To quantify the extreme downside risk of our equity exposure, we applied a 1-Day 99% Value at Risk (VaR) and Expected Shortfall (ES) model using Historical Simulation with a 500-day rolling window. Historical simulation is a non-parametric approach that uses the actual distribution of past losses to predict future tail risk. The 99% VaR is defined as the 5th largest loss in the 500-day window, while the 99% ES is the average of the 5 largest losses.
