@@ -47,13 +47,13 @@ However, beginning in 2021, the correlation sharply reversed into positive terri
 - ![Figure 2: 252-Day Rolling Correlation: S&P 500 Returns vs. Negative 10Y Yield Changes](../figures/stock_bond_correlation.png)
 
 ## 4. Tail Risk and Model Performance (VaR, ES, and Back-Test)
-*(Summarize Sessions 4 & 5 notes here. Insert figure placeholder).*
-- State the method: 1-day 99% Historical Simulation, 500-day rolling window.
-- Report the results: 29 exceptions vs 20.1 expected.
-- Discuss the clustering of exceptions (March 2020, 2022, 2025). Why is clustering dangerous for an asset manager? (Model fails exactly when you need it most).
-- Discuss the model lag: Historical simulation is reactive, not predictive. 
-- Discuss ES vs VaR: ES is always higher, and the gap widens during stress.
-- ![Figure 3: 1-Day 99% Historical Simulation VaR, ES, and Back-Test (2018-2025)](../figures/var_es_backtest.png)
+To quantify the extreme downside risk of our equity exposure, we applied a 1-Day 99% Value at Risk (VaR) and Expected Shortfall (ES) model using Historical Simulation with a 500-day rolling window. Historical simulation is a non-parametric approach that uses the actual distribution of past losses to predict future tail risk. The 99% VaR is defined as the 5th largest loss in the 500-day window, while the 99% ES is the average of the 5 largest losses.
+
+The back-test results for 2018–2025 (Figure 3) show that the model experienced 29 VaR exceptions, compared to an expected number of approximately 20.1 (1% of the 2,010 forecast days). For an asset management firm, this 44% excess in exceptions is highly concerning. It indicates that the model systematically underestimated risk during the most critical periods. 
+
+Furthermore, the exceptions are heavily clustered during specific stress episodes, particularly the March 2020 COVID-19 crash and the 2022 inflation and rate shock. This clustering reveals a critical flaw of historical simulation: it is a reactive model, not a predictive one. As seen in Figure 3, the VaR and ES estimates remain flat before a crisis, and only jump upward *after* the extreme losses have already occurred. For a risk manager, this lag means the model fails exactly when it is needed most—during sudden market drawdowns. Additionally, the 99% ES (the dashed red line) consistently sits above the VaR (the solid blue line), and the gap widens during crises, highlighting that when tail events occur, the average loss is significantly more severe than the VaR threshold itself.
+
+![Figure 3: 1-Day 99% Historical Simulation VaR, ES, and Back-Test (2018-2025)](../figures/var_es_backtest.png)
 
 ## 5. Risk Management Implications and Limitations
 - **Main Implication:** The firm cannot rely solely on historical simulation for tail risk. The model lags during regime shifts. The firm should consider using stress testing (e.g., hypothetical scenarios) or combining historical simulation with models that react faster to volatility (like EWMA or GARCH). Also, the breakdown of stock-bond correlation means asset allocation must be dynamic, not static.
