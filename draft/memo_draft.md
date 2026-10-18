@@ -24,11 +24,13 @@ University of Macau
 ---
 
 ## 1. Introduction and Exposure
-*(Summarize Session 1 notes here. Explain your institution and primary risk factor).*
-- Institution chosen: Asset Management Firm.
-- Primary risk factor: S&P 500 daily log returns.
-- Loss direction: `primary_loss = -SP500_logret`. A negative equity return creates a positive loss.
-- Why this matters: Asset management firms focus on total return and volatility management. The S&P 500 is the primary driver of portfolio drawdowns and client redemptions. 
+This memo presents a quantitative risk assessment for an Asset Management Firm managing diversified investment portfolios. The firm’s core objective is to generate total return for clients while managing volatility and protecting capital against severe drawdowns. Because equity exposure is the primary driver of portfolio performance and the main source of downside risk, the chosen primary risk factor for this analysis is the daily log return of S&P500 Price Index. 
+
+To model risk accurately from the perspective of a long-only equity exposure, I define a daily loss series where a larger positive value represents a worse outcome. The daily loss is calculated as the negative daily log return on the S&P 500 (‘primary_loss = -SP500_logret’). By flipping the sign, a 2% drop in the equity market is recorded as a positive 2% loss. This transformation allows me to apply standard tail-risk model such as Value at Risk (VaR) and Expected Shortfall (ES) to measure the severity of potential drawdowns. 
+
+Understanding this exposure is critical for the firm. Severe equity market downturns directly weaken client capital, which can trigger mass redemptions, damage the firm’s reputation, and reduce assets under management (AUM). The following sections analyze this risk through three distinct lenses: recent volatility dynamics, the changing correlation between stocks and government bonds, and the performance of my tail-risk models during recent market crises. 
+
+
 
 ## 2. Volatility Risk (EWMA Analysis)
 *(Summarize Session 2 notes here. Insert figure placeholder).*
