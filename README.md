@@ -30,10 +30,10 @@ The final submission includes a **Risk Analysis Memo (PDF)** (max 6 pages) which
 *   `data/`: Contains the raw dataset (`Personal_Project_Data.xlsx`).
 *   `output/`: Contains the cleaned data (`clean_data.csv`) and VaR/ES results (`var_es_results.csv`).
 *   `figures/`: Contains the generated high-resolution plots (`.png`) used in the memo.
-*   `draft/`: Contains session notes and the Markdown source (`memo_draft.md`) used to generate the final PDF memo.
+*   `draft/`: Contains session notes and the Markdown source (`memo_draft.md`).
 
 ## Author
 **Paulo Jose Araujo**  
-Master Program (2026 Autumn)  
+MSc in Finance (2026 Autumn)  
 Department of Finance and Business Economics  
 Faculty of Business Administration, University of Macau
